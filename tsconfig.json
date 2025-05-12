@@ -1,5 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext"
+  },
   "compileOnSave": false,
   "files": [],
   "references": []
