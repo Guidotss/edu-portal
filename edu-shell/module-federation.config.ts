@@ -14,7 +14,9 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: ['courses-mfe'],
+  remotes: [
+    ['courses-mfe', 'http://localhost:4201/remoteEntry.js'],
+  ]
 };
 
 export default config;

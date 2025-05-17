@@ -13,6 +13,7 @@
     "postinstall:shell": "nx run-many --target=postinstall --projects=edu-shell",
     "postinstall:courses-mfe": "nx run-many --target=postinstall --projects=courses-mfe",
     "start:shell": "nx serve edu-shell",
+    "start:courses-mfe": "nx serve courses-mfe",
     "start:all": "nx run-many --target=serve --projects=edu-shell,courses-mfe,admin-mfe --parallel"
   },
   "private": true,
@@ -21,6 +22,7 @@
     "@angular/common": "~18.2.0",
     "@angular/compiler": "~18.2.0",
     "@angular/core": "~18.2.0",
+    "@angular/elements": "^19.2.10",
     "@angular/forms": "~18.2.0",
     "@angular/platform-browser": "~18.2.0",
     "@angular/platform-browser-dynamic": "~18.2.0",

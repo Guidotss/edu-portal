@@ -5,6 +5,13 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   selector: 'app-courses-mfe-entry',
-  template: `<h1>Courses MFE</h1>`,
+  template: `<h1>Courses MFE ANGULAR</h1>`,
+  styles: [
+    `
+      h1 {
+        color: red;
+      }
+    `,
+  ],
 })
 export class RemoteEntryComponent {}
